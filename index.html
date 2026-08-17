@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#080812">
-  <title>For Ragini ✨</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>For Ragini ❤️</title>
+    <meta name="description" content="A little birthday surprise for Ragini.">
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div class="background">
-  <div class="orb orb1"></div>
-  <div class="orb orb2"></div>
-  <div id="stars"></div>
+    <div class="aurora aurora-one"></div>
+    <div class="aurora aurora-two"></div>
+    <div id="stars"></div>
 </div>
 
 <button id="musicBtn" class="music-btn">♫</button>
 
 <audio id="bgMusic" loop>
-  <source src="music.mp3" type="audio/mpeg">
+    <source src="music.mp3" type="audio/mpeg">
 </audio>
 
-<main>
 
 <!-- INTRO -->
 
 <section id="intro" class="screen active">
 
-  <div class="hero">
+    <div class="content">
 
-    <div class="eyebrow">A LITTLE SOMETHING FOR YOU</div>
+        <div class="eyebrow">A LITTLE SOMETHING FOR YOU</div>
 
-    <h1>
-      Hey,
-      <span>Ragini.</span>
-    </h1>
+        <h1>
+            Hey,<br>
+            <span>Ragini.</span>
+        </h1>
 
-    <p>
-      I made something a little different
-      for your birthday.
-    </p>
+        <p>
+            I made a little something especially
+            for your birthday.
+        </p>
 
-    <button id="startBtn" class="main-btn">
-      <span>Open the surprise</span>
-      <b>→</b>
-    </button>
+        <button id="startBtn" class="main-btn">
+            Open the surprise
+            <span>→</span>
+        </button>
 
-    <div class="hint">
-      headphones recommended • volume low
+        <small>headphones recommended • volume low</small>
+
     </div>
-
-  </div>
 
 </section>
 
@@ -65,54 +64,53 @@
 
 <section id="countdown" class="screen">
 
-  <div class="hero wide">
+    <div class="content">
 
-    <div class="eyebrow">
-      SOMETHING SPECIAL IS COMING
+        <div class="eyebrow">SOMETHING SPECIAL</div>
+
+        <h2>
+            Counting down to
+            <span>24 August</span>
+        </h2>
+
+        <div class="timer">
+
+            <div class="time-box">
+                <strong id="days">00</strong>
+                <small>Days</small>
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="time-box">
+                <strong id="hours">00</strong>
+                <small>Hours</small>
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="time-box">
+                <strong id="minutes">00</strong>
+                <small>Minutes</small>
+            </div>
+
+            <div class="colon">:</div>
+
+            <div class="time-box">
+                <strong id="seconds">00</strong>
+                <small>Seconds</small>
+            </div>
+
+        </div>
+
+        <p>Until your special day ✨</p>
+
+        <button id="countdownBtn" class="main-btn">
+            Continue
+            <span>→</span>
+        </button>
+
     </div>
-
-    <h2>
-      Counting down to
-      <span>24 August</span>
-    </h2>
-
-    <div class="timer">
-
-      <div class="time">
-        <strong id="days">00</strong>
-        <small>Days</small>
-      </div>
-
-      <div class="separator">:</div>
-
-      <div class="time">
-        <strong id="hours">00</strong>
-        <small>Hours</small>
-      </div>
-
-      <div class="separator">:</div>
-
-      <div class="time">
-        <strong id="minutes">00</strong>
-        <small>Minutes</small>
-      </div>
-
-      <div class="separator">:</div>
-
-      <div class="time">
-        <strong id="seconds">00</strong>
-        <small>Seconds</small>
-      </div>
-
-    </div>
-
-    <p>Until your special day ✨</p>
-
-    <button id="countdownBtn" class="main-btn">
-      Continue <b>→</b>
-    </button>
-
-  </div>
 
 </section>
 
@@ -121,29 +119,28 @@
 
 <section id="birthday" class="screen">
 
-  <div class="hero">
+    <div class="content">
 
-    <div class="cake">🎂</div>
+        <div class="cake">🎂</div>
 
-    <div class="eyebrow">
-      24 • AUGUST
+        <div class="eyebrow">24 • AUGUST</div>
+
+        <h2>
+            Happy Birthday,
+            <span>Ragini!</span>
+        </h2>
+
+        <p>
+            May today bring you plenty
+            of reasons to smile.
+        </p>
+
+        <button id="birthdayBtn" class="main-btn">
+            There's more
+            <span>→</span>
+        </button>
+
     </div>
-
-    <h2>
-      Happy Birthday,
-      <span>Ragini!</span>
-    </h2>
-
-    <p>
-      May today bring you
-      plenty of reasons to smile.
-    </p>
-
-    <button id="birthdayBtn" class="main-btn">
-      There's more <b>→</b>
-    </button>
-
-  </div>
 
 </section>
 
@@ -152,26 +149,25 @@
 
 <section id="message" class="screen">
 
-  <div class="glass-card">
+    <div class="glass-card">
 
-    <div class="number">01</div>
+        <div class="number">01</div>
 
-    <div class="eyebrow">
-      A LITTLE NOTE
+        <div class="eyebrow">A LITTLE NOTE</div>
+
+        <h2>
+            Something I<br>
+            wanted to say...
+        </h2>
+
+        <div id="typingText" class="typing-text"></div>
+
+        <button id="messageBtn" class="main-btn hidden">
+            Keep going
+            <span>→</span>
+        </button>
+
     </div>
-
-    <h2>
-      Something I
-      <span>wanted to say...</span>
-    </h2>
-
-    <div id="typingText" class="typing"></div>
-
-    <button id="messageBtn" class="main-btn hidden">
-      Keep going <b>→</b>
-    </button>
-
-  </div>
 
 </section>
 
@@ -180,55 +176,52 @@
 
 <section id="memories" class="screen">
 
-  <div class="hero wide">
+    <div class="content wide">
 
-    <div class="eyebrow">
-      LITTLE THINGS
+        <div class="eyebrow">LITTLE THINGS</div>
+
+        <h2>
+            Some moments are
+            <span>worth remembering.</span>
+        </h2>
+
+        <div class="memory-grid">
+
+            <div class="memory-card">
+                <div class="memory-icon">✦</div>
+                <h3>Smiles</h3>
+                <p>
+                    The little moments that
+                    make an ordinary day better.
+                </p>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-icon">☾</div>
+                <h3>Conversations</h3>
+                <p>
+                    Random talks that somehow
+                    become memorable.
+                </p>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-icon">♡</div>
+                <h3>Good moments</h3>
+                <p>
+                    Simple moments that deserve
+                    to stay special.
+                </p>
+            </div>
+
+        </div>
+
+        <button id="memoriesBtn" class="main-btn">
+            One last thing
+            <span>→</span>
+        </button>
+
     </div>
-
-    <h2>
-      Some moments are
-      <span>worth remembering.</span>
-    </h2>
-
-    <div class="cards">
-
-      <div class="memory">
-        <div class="icon">✦</div>
-        <h3>Smiles</h3>
-        <p>
-          The little moments
-          that make an ordinary
-          day better.
-        </p>
-      </div>
-
-      <div class="memory">
-        <div class="icon">☾</div>
-        <h3>Conversations</h3>
-        <p>
-          Random talks that
-          somehow become
-          memorable.
-        </p>
-      </div>
-
-      <div class="memory">
-        <div class="icon">♡</div>
-        <h3>Good moments</h3>
-        <p>
-          Simple moments that
-          deserve to stay special.
-        </p>
-      </div>
-
-    </div>
-
-    <button id="memoriesBtn" class="main-btn">
-      One last thing <b>→</b>
-    </button>
-
-  </div>
 
 </section>
 
@@ -237,33 +230,29 @@
 
 <section id="finalMessage" class="screen">
 
-  <div class="hero">
+    <div class="content">
 
-    <div class="heart">
-      ♡
+        <div class="big-heart">♡</div>
+
+        <div class="eyebrow">ONE LAST THING</div>
+
+        <h2>
+            Some people make
+            ordinary days
+            <span>better.</span>
+        </h2>
+
+        <p>
+            And I just wanted you to know
+            that you're one of those people.
+        </p>
+
+        <button id="questionBtn" class="main-btn">
+            I have a question
+            <span>→</span>
+        </button>
+
     </div>
-
-    <div class="eyebrow">
-      ONE LAST THING
-    </div>
-
-    <h2>
-      Some people make
-      ordinary days
-      <span>better.</span>
-    </h2>
-
-    <p>
-      And I just wanted you
-      to know that you're one
-      of those people.
-    </p>
-
-    <button id="questionBtn" class="main-btn">
-      I have a question <b>→</b>
-    </button>
-
-  </div>
 
 </section>
 
@@ -272,53 +261,42 @@
 
 <section id="proposal" class="screen">
 
-  <div class="glass-card question-card">
+    <div class="glass-card proposal-card">
 
-    <div class="question-heart">
-      ♥
-    </div>
+        <div class="proposal-heart">♥</div>
 
-    <div class="eyebrow">
-      THE QUESTION
-    </div>
+        <div class="eyebrow">THE QUESTION</div>
 
-    <h2>
-      Ragini,
-      <br>
-      what do you
-      <span>think?</span>
-    </h2>
+        <h2>
+            What do you think?
+        </h2>
 
-    <p>
-      Whatever your answer,
-      I'll respect it. ❤️
-    </p>
+        <p class="like-text">
+            I really like you. ❤️
+        </p>
 
-    <div class="choices">
+        <p class="proposal-note">
+            I just wanted to tell you honestly.
+            Whatever you feel, I'll respect it.
+        </p>
 
-      <button
-        class="choice yes"
-        data-answer="YES 💝">
-        Yes ❤️
-      </button>
+        <div class="proposal-buttons">
 
-      <button
-        class="choice maybe"
-        data-answer="Maybe 🙂">
-        Maybe 🙂
-      </button>
+            <button id="yesBtn" class="choice-btn yes-btn">
+                Yes ❤️
+            </button>
 
-      <button
-        class="choice no"
-        data-answer="NO">
-        No
-      </button>
+            <button id="maybeBtn" class="choice-btn maybe-btn">
+                Maybe 🙂
+            </button>
+
+            <button id="noBtn" class="choice-btn no-btn">
+                No
+            </button>
+
+        </div>
 
     </div>
-
-    <div id="submitStatus"></div>
-
-  </div>
 
 </section>
 
@@ -327,35 +305,30 @@
 
 <section id="result" class="screen">
 
-  <div class="hero">
+    <div class="content">
 
-    <div id="resultIcon" class="result-icon">
-      ✨
+        <div id="resultIcon" class="result-icon">✨</div>
+
+        <div class="eyebrow">THANK YOU</div>
+
+        <h2 id="resultTitle">
+            Whatever your answer,
+            <span>stay amazing.</span>
+        </h2>
+
+        <p id="resultMessage">
+            Happy Birthday, Ragini. ❤️
+        </p>
+
+        <button id="restartBtn" class="main-btn">
+            Replay
+            <span>↻</span>
+        </button>
+
     </div>
-
-    <div class="eyebrow">
-      THANK YOU
-    </div>
-
-    <h2 id="resultTitle">
-      Whatever your answer,
-      <span>stay amazing.</span>
-    </h2>
-
-    <p id="resultMessage">
-      And once again,
-      Happy Birthday, Ragini. ❤️
-    </p>
-
-    <button id="restartBtn" class="main-btn">
-      Replay <b>↻</b>
-    </button>
-
-  </div>
 
 </section>
 
-</main>
 
 <div id="confetti"></div>
 
